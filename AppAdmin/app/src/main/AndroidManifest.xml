@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dalujos.matematicaapp">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme">
+        <activity
+            android:name=".CapaVista.LaunchScreenActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CapaVista.MenuAdministrador"
+            android:label="@string/title_activity_menu_administrador"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".CapaVista.IngresoEstudianteVista"
+            android:label="@string/title_activity_estudiante_vista"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".CapaVista.CreditoEstudianteVista"
+            android:label="@string/title_activity_credito_estudiante_vista"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".CapaVista.DetEstudianteVista"
+            android:label="@string/title_activity_det_estudiante_vista"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".CapaVista.ListarEstudianteVista"
+            android:label="@string/title_activity_det_estudiante_vista"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".CapaVista.ActualizarEstudianteVista"
+            android:label="@string/title_activity_det_estudiante_vista"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".CapaVista.ActualizarProfesorVista"
+            android:label="@string/title_activity_det_estudiante_vista"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".CapaVista.IngresoProfesorVista"
+            android:label="@string/title_activity_ingreso_profesor"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".CapaVista.DetProfesorVista"
+            android:label="@string/title_activity_det_estudiante_vista"
+            android:theme="@style/MyTheme" />
+        <activity android:name=".CapaVista.LogIn" >
+        </activity>
+        <activity
+            android:name=".CapaVista.ListarProfesorVista"
+            android:label="@string/title_activity_det_estudiante_vista"
+            android:theme="@style/MyTheme" />
+
+    </application>
+
+</manifest>

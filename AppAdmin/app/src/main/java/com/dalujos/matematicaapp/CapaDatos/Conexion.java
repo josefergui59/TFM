@@ -1,0 +1,33 @@
+package com.dalujos.matematicaapp.CapaDatos;
+
+
+public class Conexion {
+
+    public static final int CODIGO_DETALLE = 100;
+
+    public static final int CODIGO_ACTUALIZACION = 101;
+
+    private static final String PUERTO_HOST = ""; //":63343";
+
+    private static final String IP = "192.168.100.3";
+   // private static final String IP = "192.168.1.130";
+
+    public static final String GET_EST = "http://" + IP + PUERTO_HOST + "/WebServicePhp/obtener_estudiante.php";
+    public static final String GET_BY_ID_EST = "http://" + IP + PUERTO_HOST + "/WebServicePhp/obtener_estudiante_por_id.php";
+    public static final String UPDATE_EST = "http://" + IP + PUERTO_HOST + "/WebServicePhp/actualizar_estudiante.php";
+    public static final String DELETE_EST = "http://" + IP + PUERTO_HOST + "/WebServicePhp/borrar_estudiante.php";
+    public static final String INSERT_EST = "http://" + IP + PUERTO_HOST + "/WebServicePhp/insertar_estudiante.php";
+
+    public static final String GET_PRO = "http://" + IP + PUERTO_HOST + "/WebServicePhp/obtener_profesor.php";
+    public static final String GET_BY_ID_PRO = "http://" + IP + PUERTO_HOST + "/WebServicePhp/obtener_profesor_por_id.php";
+    public static final String UPDATE_PRO = "http://" + IP + PUERTO_HOST + "/WebServicePhp/actualizar_profesor.php";
+    public static final String DELETE_PRO = "http://" + IP + PUERTO_HOST + "/WebServicePhp/borrar_profesor.php";
+    public static final String INSERT_PRO = "http://" + IP + PUERTO_HOST + "/WebServicePhp/insertar_profesor.php";
+
+    public static final String UPDATE_CRE = "http://" + IP + PUERTO_HOST + "/WebServicePhp/actualizar_credito.php";
+
+    public static final String GET_EST_LOGIN = "http://" + IP + PUERTO_HOST + "/WebServicePhp/obtener_estudiante_login.php";
+    public static final String GET_EST_ADM = "http://" + IP + PUERTO_HOST + "/WebServicePhp/obtener_admin_login.php";
+    public static final String EXTRA_ID = "IDEXTRA";
+
+}

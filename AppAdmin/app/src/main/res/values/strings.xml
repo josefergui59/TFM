@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">App Administrador</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_launch_screen">LaunchScreenActivity</string>
+    <string name="title_activity_menu_administrador"></string>
+    <string name="title_activity_estudiante_vista">Crear Estudiante</string>
+    <string name="title_activity_ingreso_profesor">Crear profesor</string>
+    <string name="title_activity_credito_estudiante_vista">Agregar Crédito</string>
+    <string name="title_activity_edit_estudiante_vista">EditEstudianteVista</string>
+    <string name="title_activity_det_estudiante_vista">DetEstudianteVista</string>
+
+
+    <string-array name="entradas_categoria">
+        <item>Salud</item>
+        <item>Finanzas</item>
+        <item>Espiritual</item>
+        <item>Profesional</item>
+        <item>Material</item>
+    </string-array>
+
+    <!-- Prioridades -->
+    <string-array name="entradas_prioridad">
+        <item>Alta</item>
+        <item>Media</item>
+        <item>Baja</item>
+    </string-array>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_discard_msg">¿Descartar Cambios?</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_delete_msg">Se eliminará el estudiante</string>
+    <string name="title_activity_borrar">borrar</string>
+</resources>
